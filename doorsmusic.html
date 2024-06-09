@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+nav#nav1{ margin-top: 24px; }
+nav#nav1 > a{ background:#B9E1FF; color:#000; padding:10px; text-decoration:none; border-radius:5px; font-family:"Arial Black", Gadget, sans-serif; }
+nav#nav1 > a:hover{ background: #BBEA00; }
+nav#nav1 > a:active{ background: #EEFFA8; }
+</style>
+<script>
+var ElevatorJam = new Audio();
+ElevatorJam.src = 'ElevatorJam.mp3';
+var ElevatorJamRemix2 = new Audio();
+ElevatorJamRemix2.src = 'ElevatorJamRemix2.mp3';
+var HereICome = new Audio();
+HereICome.src = 'HereICome.mp3';
+var Unhinged = new Audio();
+Unhinged.src = 'Unhinged.mp3';
+var JeffsJingle = new Audio();
+JeffsJingle.src = 'JeffsJingle.mp3';
+var UnhindgedII = new Audio();
+UnhindgedII.src = 'UnhingedII.mp3';
+</script>
+</head>
+<body>
+  <nav id="nav1">
+    <a href="#" onmousedown="ElevatorJam.play()">Elevator Jam</a>
+    <a href="#" onmousedown="ElevatorJamRemix2.play()">Elevator Jam Remix</a>
+    <a href="#" onmousedown="HereICome.play()">Here I Come</a>
+    <a href="#" onmousedown="Unhinged.play()">Unhinged</a>
+    <a href="#" onmousedown="JeffsJingle.play()">Jeffs Jingle</a>
+    <a href="#" onmousedown="UnhindgedII.play()">Unhinged II</a>
+  </nav>
+</body>
+</html>
